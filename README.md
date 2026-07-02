@@ -23,7 +23,8 @@ git clone https://github.com/dezezvest/osint-tool.git
 cd osint-tool
 pip install -r requirements.txt
 
-Установка баз данных
+
+## Установка баз данных
 
 ```bash
 # Скачай archives.zip с релиза
@@ -31,3 +32,4 @@ wget https://github.com/dezezvest/osint-tool/releases/download/v1.0.0/databases.
 # Или скачай вручную по ссылке: https://github.com/dezezvest/osint-tool/releases
 
 # Распакуй архив в папку data
+unzip databases.zip -d data/
